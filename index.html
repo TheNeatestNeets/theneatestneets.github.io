@@ -24,6 +24,26 @@
 						<p>A <a href="https://invite.gg/theneatneets">Discord</a> server built by and for weebs/neets. <a href="https://twitter.com/TheNeatNEETs">@theneatneets</a>.</p>
 					</header>
 
+					<!--twitchembed-->
+					<html>
+  <body>
+    <!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed script -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "JorjiPorgi"
+      });
+    </script>
+  </body>
+</html>
+
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
